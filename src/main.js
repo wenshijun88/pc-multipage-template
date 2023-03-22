@@ -6,11 +6,15 @@ import store from '@/store'
 import '@/element-ui'
 import '@/element-ui-theme'
 import '@/assets/scss/index.scss'
-import {initLocationData} from '@/utils/inits.js'
+
+import "@/components/icon-svg";
+
+/*引入规则工具函数*/
+import yyRules from "@pc/utils/rules";
+Vue.use(yyRules);
 
 
 Vue.config.productionTip = false
-initLocationData(window.location.search)
 
 new Vue({
   router,
