@@ -62,7 +62,7 @@ if (node_env === 'production' || node_env === 'yfb') {
     if (main.indexOf('.js') > -1) {
       const filename = main.replace('.js', '')
       pages[filename] = {
-        title: 'rmis报表系统',
+        title: '标题',
         entry: `src/mains/${filename}.js`,
         template: 'public/index.html',
         filename: `${filename}.html`

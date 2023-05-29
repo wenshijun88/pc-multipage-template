@@ -10,7 +10,7 @@ import '@/assets/scss/index.scss'
 import "@/components/icon-svg";
 
 /*引入规则工具函数*/
-import yyRules from "@pc/utils/rules";
+import yyRules from "@/utils/rules";
 Vue.use(yyRules);
 
 
