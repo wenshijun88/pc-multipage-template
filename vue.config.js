@@ -87,7 +87,7 @@ module.exports = {
       errors: true
     },
     proxy: {
-      '/ure': {
+      '/api': {
         // 目标 API 地址
         target: 'http://192.168.1.96:8080/',
         // 如果要代理 websockets
@@ -104,7 +104,7 @@ module.exports = {
     // provide the app's title in webpack's name field, so that
     // it can
     // be accessed in index.html to inject the correct title.
-    name: 'rmis-jm-fe-config',
+    name: 'test_name',
     resolve: {
       alias: {
         '@': resolve('src')
